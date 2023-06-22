@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F604360C-1C11-4382-ADDD-255DE923A669"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF08A0F3-D1CF-4B22-93CA-602457D38839"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FriendList/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF08A0F3-D1CF-4B22-93CA-602457D38839 - 1445dfea711f4789"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FriendList.ContentView.fetchData() async -&gt; ()"
+                  moduleName = "FriendList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rishavgupta/Documents/HackingWithSwift/FriendList/FriendList/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "2956">
+               </Location>
+               <Location
+                  uuid = "FF08A0F3-D1CF-4B22-93CA-602457D38839 - 1445dfea711f4789"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FriendList.ContentView.fetchData() async -&gt; ()"
+                  moduleName = "FriendList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rishavgupta/Documents/HackingWithSwift/FriendList/FriendList/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "2800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

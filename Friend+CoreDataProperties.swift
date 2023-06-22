@@ -17,12 +17,16 @@ extension Friend {
     }
 
     @NSManaged public var name: String?
+    @NSManaged public var id: String?
     @NSManaged public var user: User?
-    
+
     var wrappedName: String {
         name ?? "Unknwon Name"
     }
-
+    
+    var wrappedID: String {
+        id ?? "Unknwon ID"
+    }
 }
 
 extension Friend : Identifiable {

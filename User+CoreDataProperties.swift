@@ -24,37 +24,42 @@ extension User {
     @NSManaged public var address: String?
     @NSManaged public var about: String?
     @NSManaged public var registered: Date?
+    @NSManaged public var id: String?
     @NSManaged public var friend: NSSet?
-    
+
+    var wrappedId: String {
+        id ?? "Unknown Id"
+    }
+
     var wrappedName: String {
         name ?? "Unknown Name"
     }
-    
+
     var wrappedCompany: String {
         company ?? "Unknown Company"
     }
-    
+
     var wrappedEmail: String {
         email ?? "Unknwon Email"
     }
-    
+
     var wrappedAddress: String {
         address ?? "Unknown Address"
     }
-    
+
     var wrappedAbout: String {
         about ?? "Wrapped About"
     }
-    
+
     var wrappedRegistered: Date {
         registered ?? Date.now
     }
-    
+
     var wrappedFriend: [Friend] {
         let friends = friend as? Set<Friend> ?? []
         
         return friends.sorted {
-            $0.wrappedName > $1.wrappedName
+            $0.wrappedName < $1.wrappedName
         }
     }
 
